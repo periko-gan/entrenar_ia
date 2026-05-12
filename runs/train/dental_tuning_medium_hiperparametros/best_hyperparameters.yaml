@@ -1,0 +1,30 @@
+# 10/10 iterations complete ✅ (22780.39s)
+# Results saved to C:\Users\pemip\Desktop\Entrenamiento finetuning\runs\train\dental_tuning_medium_hiperparámetros
+# Best fitness=0.55753 observed at iteration 2
+# Best fitness metrics are {'metrics/precision(B)': 0.73962, 'metrics/recall(B)': 0.80441, 'metrics/mAP50(B)': 0.80346, 'metrics/mAP50-95(B)': 0.55753, 'val/box_loss': 1.19137, 'val/cls_loss': 0.70685, 'val/dfl_loss': 0.00553, 'fitness': 0.55753}
+# Best fitness model is C:\Users\pemip\Desktop\Entrenamiento finetuning\runs\train\train5
+lr0: 0.00403
+lrf: 0.01
+momentum: 0.98
+weight_decay: 0.0
+warmup_epochs: 3.01264
+warmup_momentum: 0.95
+box: 7.49914
+cls: 0.56751
+dfl: 1.37736
+hsv_h: 0.01119
+hsv_s: 0.89662
+hsv_v: 0.37658
+degrees: 0.0
+translate: 0.09243
+scale: 0.49984
+shear: 0.0
+perspective: 0.001
+flipud: 0.0
+fliplr: 0.50212
+bgr: 0.00514
+mosaic: 1.0
+mixup: 0.0055
+cutmix: 0.0
+copy_paste: 0.0
+close_mosaic: 10

@@ -1,0 +1,4 @@
+# PyTorch se instala por separado (cpu/cu130/cu128) segun README.
+# Evitamos fijar torch/torchvision/torchaudio aqui para no forzar wheels incompatibles.
+pytest>=8.0.0
+ultralytics>=8.4.32

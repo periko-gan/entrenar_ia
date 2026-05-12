@@ -1,0 +1,40 @@
+{
+  "dataset_root": "C:\\Users\\pemip\\Desktop\\Proyecto-ia-dental\\entrenamiento ia\\dataset",
+  "class_to_id": {
+    "Cavity": 0,
+    "Fillings": 1,
+    "Impacted Tooth": 2,
+    "Implant": 3
+  },
+  "labels_output": "C:\\Users\\pemip\\Desktop\\Proyecto-ia-dental\\entrenamiento ia\\dataset\\labels",
+  "data_yaml": "C:\\Users\\pemip\\Desktop\\Proyecto-ia-dental\\entrenamiento ia\\dataset\\data.yaml",
+  "splits": {
+    "train": {
+      "csv_rows": 8030,
+      "valid_boxes": 8027,
+      "invalid_rows": 3,
+      "missing_images": 0,
+      "images_in_csv": 1075,
+      "images_on_disk": 1075,
+      "empty_label_files": 0
+    },
+    "val": {
+      "csv_rows": 780,
+      "valid_boxes": 780,
+      "invalid_rows": 0,
+      "missing_images": 0,
+      "images_in_csv": 121,
+      "images_on_disk": 121,
+      "empty_label_files": 0
+    },
+    "test": {
+      "csv_rows": 473,
+      "valid_boxes": 473,
+      "invalid_rows": 0,
+      "missing_images": 0,
+      "images_in_csv": 73,
+      "images_on_disk": 73,
+      "empty_label_files": 0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+path: .
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+  0: Cavity
+  1: Fillings
+  2: Impacted Tooth
+  3: Implant

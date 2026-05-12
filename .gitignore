@@ -1,0 +1,88 @@
+# =========================
+# Docker - Datos en tiempo de ejecucion
+# =========================
+docker/data/
+!docker/data/logstash_pipeline/
+
+# =========================
+# PhpStorm (JetBrains IDEs)
+# =========================
+.idea/
+*.iml
+out/
+gen/
+
+# =========================
+# Vue 3 (Node.js / Vite / pnpm)
+# =========================
+# Dependencias y caché
+node_modules/
+.pnpm-store/
+
+# Archivos de construcción (build)
+dist/
+dist-ssr/
+
+# Logs temporales
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de entorno local (variables secretas)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Caché y herramientas
+.eslintcache
+node_modules/.vite/
+
+# =========================
+# Python
+# =========================
+# Archivos compilados y caché
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.ruff_cache/
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Herramientas de prueba y cobertura
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+.pytest_cache/
+
+# Archivos de distribución de Python
+build/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# =========================
+# Sistema Operativo
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.env

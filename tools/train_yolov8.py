@@ -46,7 +46,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--device",
         default="auto",
-        help="Dispositivo: auto, cpu, 0, 0,1, ... (auto usa GPU si existe)",
+        help="Dispositivo: auto, cpu, 0, 0, 1, ... (auto usa GPU si existe)",
     )
     parser.add_argument("--project", default="runs/train", help="Carpeta base de resultados")
     parser.add_argument("--name", default="dental_yolov8", help="Nombre del experimento")
